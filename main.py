@@ -26,7 +26,7 @@ def test():
     answer = {}
     positive = 0
     print(data['name'])
-    print(data['version'])
+    print("version:"data['version'])
     print(data['introduce'])
     input("开始答题请回车")
     all_qu = len(data['questions'])
